@@ -18,7 +18,7 @@ args = parser.parse_args()
 model_folder = args.folder
 
 
-st.markdown("# Rasa NLU Model Playground")
+st.markdown("# Arabic KYC NLU Model Summary")
 st.markdown("You can select a model on the left to interact with.")
 
 model_files = [str(p.parts[-1]) for p in pathlib.Path(model_folder).glob("*.tar.gz")]
