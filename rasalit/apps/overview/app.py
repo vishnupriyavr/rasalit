@@ -22,7 +22,7 @@ df_response = read_reports(root_folder, report="response")
 
 st.cache()
 
-st.markdown("# Rasa GridResults Summary")
+st.markdown("# Arabic NLP GridResults Summary")
 st.markdown("Quick Overview of Crossvalidated Runs")
 
 st.sidebar.markdown("### Configure Overview")
