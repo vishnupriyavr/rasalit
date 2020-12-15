@@ -59,10 +59,8 @@ def calculate_embeddings(messages, encodings):
     return message_embeddings
 
 
-st.sidebar.markdown("Made with love over at [Rasa](https://rasa.com/).")
-st.sidebar.image(
-    "https://rasahq.github.io/rasa-nlu-examples/square-logo.svg", width=100
-)
+st.sidebar.markdown("Made with love")
+
 uploaded = st.sidebar.file_uploader(
     "Upload a `.txt` file for clustering. Each utterance should appear on a new line."
 )
